@@ -61,7 +61,7 @@ export default function Intro() {
             </button>
             <button className="bg-transparent hover:bg-blue-500 text-blue-500 hover:text-white font-normal py-2 px-4 rounded-full border border-blue-500 transition duration-300">
               <a
-                href="./app/dalu_okonkwo_resume.pdf"
+                href="/dalu_okonkwo_resume.pdf"
                 download="Dalu Okonkwo's Resume"
               >
                 Download CV
