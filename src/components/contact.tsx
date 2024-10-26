@@ -39,7 +39,7 @@ export default function ContactCard() {
               whileTap={{ scale: 0.95 }}
               className="bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-blue-700 transition w-fit mx-auto md:mx-0"
               onClick={() =>
-                (window.location.href = "mailto:chukdals@email.com")
+                (window.location.href = "mailto:chukdals@gmail.com")
               }
             >
               Email me
