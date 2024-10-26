@@ -11,26 +11,25 @@ export default function Footer() {
           <small className="text-sm">© 2024 DALU OKONKWO</small>
         </div>
 
-        {/* Vertical divider - hidden on mobile */}
         <div className="hidden sm:block h-5 w-px bg-gray-800 mx-8" />
 
         <div className="flex gap-6 items-center">
           <Link
-            href="https://twitter.com/yourusername"
+            href=""
             target="_blank"
             className="hover:text-gray-200 transition-colors"
           >
             <FaXTwitter className="w-4 h-4" />
           </Link>
           <Link
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/dalu-okonkwo/"
             target="_blank"
             className="hover:text-gray-200 transition-colors"
           >
             <FaLinkedin className="w-4 h-4" />
           </Link>
           <Link
-            href="https://github.com/yourusername"
+            href="https://github.com/dalu-ao"
             target="_blank"
             className="hover:text-gray-200 transition-colors"
           >
