@@ -9,7 +9,7 @@ export default function SectionDivider() {
       className="sm:my-20 my-32 h-48 w-1 relative overflow-hidden"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 1 }}
+      transition={{ delay: 2 }}
     >
       <div className="absolute inset-0 bg-gray-200/20 rounded-full " />
       <motion.div
