@@ -36,7 +36,7 @@ export const links = [
 export const experienceData = [
   {
     startDate: "June 2024",
-    endDate: "August 2024",
+    endDate: "October 2024",
     company: "Amazon Web Services",
     title: "Software Developer Engineer Intern",
     description:
