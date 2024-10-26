@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Intro() {
   const name = "Dalu Okonkwo".split(" ");
-  const title = "I'm a Software Developer Engineer".split(" ");
+  const title = "Software Developer Engineer".split(" ");
 
   const textAnimationDuration = 0.5;
   const totalTextDelay = (name.length + title.length) / 5;
