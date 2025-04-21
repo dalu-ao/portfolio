@@ -73,6 +73,7 @@ export const projectsData = [
     title: "Reech",
     description: "Smart tracking. Smart progress.",
     gradient: "from-green-400 via-emerald-400 to-cyan-400",
+    link: "https://tryreech.com",
   },
   {
     subtitle: "Python • OpenCV • MediaPipe",

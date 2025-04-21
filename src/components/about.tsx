@@ -46,14 +46,13 @@ export default function About() {
             initial={{ opacity: 0, y: 20 }}
             animate={textInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.5 }}
-            className="text-base sm:text-xl text-gray-50 font-semibold leading-relaxed sm:pr-48"
+            className="text-base sm:text-xl text-gray-50 font-[400] leading-relaxed sm:pr-48"
           >
-            I&apos;m a software developer focused on creating impactful web and
-            mobile applications. I have a strong foundation in full-stack
-            development and cloud technologies. From my experience at big tech
-            and side projects, I&apos;ve developed a good eye for building
-            user-centric solutions that solve real world problems. On the side,
-            I&apos;m indie hacking, producing music or ballin.
+            I&apos;m a developer that creates web and mobile applications. I
+            have a strong foundation in full-stack development and cloud
+            technologies. From my experience at big tech and side projects,
+            I&apos;ve developed a good eye for building user-focused products
+            that solve real problems.
           </motion.p>
         </div>
       </motion.div>

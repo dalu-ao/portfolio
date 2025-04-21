@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function Intro() {
+export default function Banner() {
   const name = "Dalu Okonkwo".split(" ");
   const title = "Software Developer Engineer".split(" ");
 
