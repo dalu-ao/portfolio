@@ -35,6 +35,14 @@ export const links = [
 
 export const experienceData = [
   {
+    startDate: "June 2025",
+    endDate: "September 2025",
+    company: "Amazon Web Services",
+    title: "AI Engineer",
+    description:
+      "Developed an internal MCP tool enabling capacity engineers to access critical information through natural language queries. Integrated with agentic workflow systems to autonomously retrieve, and analyze data from multiple sources for enhanced decision-making.",
+  },
+  {
     startDate: "June 2024",
     endDate: "October 2024",
     company: "Amazon Web Services",

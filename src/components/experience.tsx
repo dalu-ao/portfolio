@@ -11,6 +11,7 @@ const gradients = [
   "bg-gradient-to-r from-emerald-400 via-emerald-400 to-green-400", // green
   "bg-gradient-to-r from-blue-400 via-blue-400 to-cyan-400", // blue
   "bg-gradient-to-r from-orange-600 via-red-500 to-red-500", // red
+  "bg-gradient-to-r from-indigo-500 via-indigo-400 to-violet-400", // indigo-violet
 ];
 
 interface ExperienceCardProps {
@@ -66,7 +67,8 @@ export default function Experience() {
   const getGradient = (index: number) => {
     if (index === 0) return gradients[0]; // First card gets green
     if (index === 1) return gradients[1]; // Second card gets blue
-    return gradients[2]; // Third card gets red
+    if (index === 2) return gradients[2]; // Third card gets blue
+    return gradients[3]; // Third card gets red
   };
 
   return (
