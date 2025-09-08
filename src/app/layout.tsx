@@ -18,6 +18,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <head>
+        {/* Google Analytics */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-78LQ9J6CPS"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-78LQ9J6CPS');
+            `,
+          }}
+        />
+      </head>
       <body
         className={`${inter.className} pt-28 smpt:36 bg-black text-gray-100`}
       >
