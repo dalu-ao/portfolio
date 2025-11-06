@@ -8,19 +8,19 @@ export default function Footer() {
       <div className="h-px bg-white/90 mb-4" />
       <div className="w-full flex flex-col sm:flex-row items-center sm:justify-between text-gray-400 gap-4 sm:gap-0">
         <div>
-          <small className="text-sm">© 2024 DALU OKONKWO</small>
+          <small className="text-sm">© 2025 DALU OKONKWO</small>
         </div>
 
         <div className="hidden sm:block h-5 w-px bg-gray-800 mx-8" />
 
-        <div className="flex gap-6 items-center">
+        {/* <div className="flex gap-6 items-center">
           <Link
             href=""
             target="_blank"
             className="hover:text-gray-200 transition-colors"
           >
             <FaXTwitter className="w-4 h-4" />
-          </Link>
+          </Link> */}
           <Link
             href="https://www.linkedin.com/in/dalu-okonkwo/"
             target="_blank"
