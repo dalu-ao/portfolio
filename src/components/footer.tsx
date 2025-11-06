@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -13,14 +13,7 @@ export default function Footer() {
 
         <div className="hidden sm:block h-5 w-px bg-gray-800 mx-8" />
 
-        {/* <div className="flex gap-6 items-center">
-          <Link
-            href=""
-            target="_blank"
-            className="hover:text-gray-200 transition-colors"
-          >
-            <FaXTwitter className="w-4 h-4" />
-          </Link> */}
+        <div className="flex gap-6 items-center">
           <Link
             href="https://www.linkedin.com/in/dalu-okonkwo/"
             target="_blank"
