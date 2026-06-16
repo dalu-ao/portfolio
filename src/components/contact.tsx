@@ -28,8 +28,18 @@ export default function ContactCard() {
               transition={{ delay: 0.275 }}
               className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-4 text-gray-900"
             >
-              Let&apos;s work together.
+              Let&apos;s build useful systems.
             </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.325 }}
+              className="text-gray-700 text-base sm:text-lg mb-6"
+            >
+              I&apos;m open to applied AI, product engineering, and full-stack
+              roles where the work is technical, ambiguous, and close to real
+              users.
+            </motion.p>
 
             <motion.button
               initial={{ opacity: 0, y: 20 }}

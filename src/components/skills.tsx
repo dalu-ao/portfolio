@@ -56,10 +56,10 @@ export default function Skills() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-semibold mb-4">
-            What do I work with?
+            Skills
           </h2>
           <p className="text-gray-50 text-lg max-w-[800px] mx-auto word sm:tracking-normal tracking-tight font-semibold leading-[1.3]">
-            Powerful tools. Endless possibilities.
+            The stack I use to build, ship, and reason through products.
           </p>
         </div>
 

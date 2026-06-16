@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Banner() {
   const name = "Dalu Okonkwo".split(" ");
-  const title = "Software Developer Engineer".split(" ");
+  const title = "Applied AI Product Engineer".split(" ");
 
   const textAnimationDuration = 0.5;
   const totalTextDelay = (name.length + title.length) / 5;
@@ -47,6 +47,17 @@ export default function Banner() {
               </motion.span>
             ))}
           </p>
+          <motion.p
+            className="mt-4 text-base sm:text-xl text-gray-300 max-w-[36rem] mx-auto px-4"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.5,
+              delay: totalTextDelay,
+            }}
+          >
+            I build AI-powered products around messy problems.
+          </motion.p>
           <motion.div
             className="mt-8 flex justify-center space-x-4"
             initial={{ opacity: 0, y: 20 }}
@@ -64,7 +75,7 @@ export default function Banner() {
                 href="/dalu_okonkwo_resume.pdf"
                 download="Dalu Okonkwo's Resume"
               >
-                Download CV
+                Download Resume
               </a>
             </button>
           </motion.div>
