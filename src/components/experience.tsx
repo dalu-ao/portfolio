@@ -84,8 +84,12 @@ export default function Experience() {
       >
         <div className="mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-12 text-center text-white">
-            Recent work experiences
+            Experience
           </h2>
+          <p className="text-gray-50 text-lg max-w-[720px] mx-auto text-center font-semibold leading-[1.3] mb-12">
+            Recent work across AI tools, fintech systems, and internal
+            platforms.
+          </p>
 
           {experienceData.map((experience, index) => (
             <ExperienceCard

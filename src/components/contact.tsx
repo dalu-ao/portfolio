@@ -30,6 +30,16 @@ export default function ContactCard() {
             >
               Let&apos;s work together.
             </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.325 }}
+              className="text-gray-700 text-base sm:text-lg mb-6"
+            >
+              I&apos;m open to applied AI, product engineering, and full-stack
+              roles where the work is technical, ambiguous, and close to real
+              users.
+            </motion.p>
 
             <motion.button
               initial={{ opacity: 0, y: 20 }}

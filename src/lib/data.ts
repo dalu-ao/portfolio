@@ -40,31 +40,31 @@ export const experienceData = [
     company: "Amazon Web Services",
     title: "AI Engineer",
     description:
-      "Developed an internal MCP tool enabling capacity engineers to access critical information through natural language queries. Integrated with agentic workflow systems to autonomously retrieve, and analyze data from multiple sources for enhanced decision-making.",
+      "Built an internal MCP tool that helped capacity engineers access critical operational information through natural language queries. Integrated agentic workflows to retrieve, analyze, and summarize data across multiple sources for faster decision-making.",
   },
   {
     startDate: "June 2024",
     endDate: "October 2024",
     company: "Amazon Web Services",
-    title: "Software Developer Engineer Intern",
+    title: "Software Development Engineer Intern",
     description:
-      "Developed a natural language interface for financial data analysis, incorporating AI research to improve how users interact with and visualize complex data.",
+      "Developed a natural language interface for financial data analysis, using LLM research and structured prompting to help users query, interpret, and visualize complex data.",
   },
   {
-    startDate: "April 2024",
+    startDate: "March 2024",
     endDate: "June 2024",
     company: "PowerPay",
     title: "Full-Stack Developer Intern",
     description:
-      "Built and maintained features for a financial web application using Next.js and Node.js. Integrated various AWS services and financial APIs for secure data processing.",
+      "Built secure fintech features across Next.js, Node.js, Plaid, and AWS Lambda. Worked across frontend flows, API routes, validation, error handling, and backend data processing for sensitive financial workflows.",
   },
   {
     startDate: "May 2023",
     endDate: "September 2023",
     company: "Amazon Web Services",
-    title: "Software Developer Engineer Intern",
+    title: "Software Development Engineer Intern",
     description:
-      "Created an internal tool to track and analyze user interactions with team's product. Built APIs and dashboards to display key usage metrics and improve user experience analysis.",
+      "Created an internal analytics tool to track customer journey data, expose workflow insights, and help teams understand product usage through APIs and dashboards.",
   },
 ] as const;
 
@@ -72,7 +72,7 @@ export const projectsData = [
   {
     subtitle: "ML • Python • Flutter",
     title: "Meddibia",
-    description: "AI meddical companion.",
+    description: "AI medical companion.",
     gradient: "from-red-400 via-purple-400 to-blue-400",
     link: "https://devpost.com/software/meddibia",
   },
@@ -81,7 +81,7 @@ export const projectsData = [
     title: "Reech",
     description: "Smart tracking. Smart progress.",
     gradient: "from-green-400 via-emerald-400 to-cyan-400",
-    link: "https://tryreech.com",
+    link: "https://apps.apple.com/us/app/reech-workout-tracker/id6744148500",
   },
   {
     subtitle: "Python • OpenCV • MediaPipe",
@@ -90,43 +90,49 @@ export const projectsData = [
     gradient: "from-purple-400 via-pink-400 to-red-400",
     link: "https://devpost.com/software/gesture-ai",
   },
+  {
+    subtitle: "AI Security • FastAPI • React • WebSockets",
+    title: "Xploit",
+    description: "Attack agents. Safer systems.",
+    gradient: "from-slate-700 via-blue-500 to-cyan-400",
+  },
 ] as const;
 
 export const skillsData = [
   {
     icon: "</>",
-    title: "Programming Languages ",
+    title: "Product Engineering ",
     description:
-      "including Java, JavaScript, TypeScript, Python, Dart, SQL, and C for versatile development needs.",
+      "with full-stack development across React, Next.js, Flutter, Node.js, APIs, and production user workflows.",
   },
   {
     icon: "💻",
-    title: "Web & Mobile Development ",
+    title: "AI & Data Systems ",
     description:
-      "with React.js, Next.js, Flutter, Node.js, and APIs (REST & GraphQL)",
+      "with LLMs, agentic workflows, prompting, data querying, visualization, Pydantic-AI, OpenCV, MediaPipe, and Hugging Face.",
   },
   {
     icon: "☁️",
     title: "Cloud Infrastructure ",
     description:
-      "using Docker, AWS, Supabase, and Firebase for scalable cloud solutions.",
+      "with AWS, Supabase, Firebase, PostgreSQL, SQLite, Docker, REST APIs, GraphQL, and serverless infrastructure.",
   },
   {
     icon: "🤖",
-    title: "AI & Machine Learning ",
+    title: "Engineering Foundations ",
     description:
-      "with LLMs, OpenCV, MediaPipe, and Hugging Face for intelligent solutions.",
+      "with TypeScript, JavaScript, Python, Java, Dart, SQL, C, testing, Git, and system design.",
   },
   {
     icon: "🧪",
-    title: "Testing & Version Control ",
+    title: "Product Judgment ",
     description:
-      "using Jest, Cypress, JUnit, Postman, and Git/GitHub for quality assurance.",
+      "by turning ambiguous requirements into usable interfaces, reliable systems, and clear user outcomes.",
   },
   {
     icon: "⚽️",
-    title: "Interests & Activities ",
+    title: "Interests ",
     description:
-      "focused on Indie hacking, ML Research, Music Production, and Football.",
+      "including AI safety, local LLMs, indie hacking, music production, and soccer.",
   },
 ] as const;
