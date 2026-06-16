@@ -8,10 +8,10 @@ import { projectsData } from "@/lib/data";
 
 // Add this gradient array at the top of the file, outside of any component
 const gradients = [
+  "from-slate-700 via-blue-500 to-cyan-400",
   "from-red-400 via-purple-400 to-blue-400",
   "from-green-400 via-emerald-400 to-cyan-400",
   "from-purple-400 via-pink-400 to-red-400",
-  "from-slate-700 via-blue-500 to-cyan-400",
 ];
 
 interface Project {

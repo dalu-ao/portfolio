@@ -48,11 +48,12 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="text-base sm:text-xl text-gray-50 font-[400] leading-relaxed sm:pr-48"
           >
-            I&apos;m a full-stack product engineer focused on AI tools, data
-            platforms, and production mobile experiences. I&apos;m strongest in
-            ambiguous environments where the work requires understanding messy
-            workflows, designing practical systems, and shipping software that
-            turns complex data into usable decisions.
+            I&apos;m a full-stack product engineer who likes building where
+            product and engineering meet. I&apos;m drawn to problems that are not
+            fully defined yet, where the work is figuring out the real user
+            need, shaping the first useful version, and building the system
+            behind it. I build AI tools, data platforms, and mobile products
+            that make complex workflows easier to use.
           </motion.p>
         </div>
       </motion.div>

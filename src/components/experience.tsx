@@ -87,7 +87,7 @@ export default function Experience() {
             Experience
           </h2>
           <p className="text-gray-50 text-lg max-w-[720px] mx-auto text-center font-semibold leading-[1.3] mb-12">
-            Recent work across AI tools, fintech systems, and internal
+            Recent work building AI tools, financial systems, and internal
             platforms.
           </p>
 

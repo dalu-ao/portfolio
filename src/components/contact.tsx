@@ -36,9 +36,9 @@ export default function ContactCard() {
               transition={{ delay: 0.325 }}
               className="text-gray-700 text-base sm:text-lg mb-6"
             >
-              I&apos;m open to applied AI, product engineering, and full-stack
-              roles where the work is technical, ambiguous, and close to real
-              users.
+              If you&apos;re building something useful and need someone who can
+              think through the product and build the system behind it, reach
+              out.
             </motion.p>
 
             <motion.button
