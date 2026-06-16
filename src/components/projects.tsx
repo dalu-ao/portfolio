@@ -8,9 +8,10 @@ import { projectsData } from "@/lib/data";
 
 // Add this gradient array at the top of the file, outside of any component
 const gradients = [
-  "from-slate-700 via-blue-500 to-cyan-400",
-  "from-green-400 via-emerald-400 to-cyan-400",
   "from-red-400 via-purple-400 to-blue-400",
+  "from-green-400 via-emerald-400 to-cyan-400",
+  "from-purple-400 via-pink-400 to-red-400",
+  "from-slate-700 via-blue-500 to-cyan-400",
 ];
 
 interface Project {
@@ -103,15 +104,6 @@ export default function Projects() {
         >
           Projects
         </motion.p>
-        <motion.p
-          className="text-gray-50 text-lg sm:text-xl font-semibold leading-[1.3] mb-8 px-4"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.25 }}
-        >
-          Selected products and tools I&apos;ve built.
-        </motion.p>
-
         <div className="relative">
           <div
             className="flex snap-x snap-mandatory overflow-x-auto gap-2 px-4 pb-4 scrollbar-hide"
