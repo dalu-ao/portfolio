@@ -38,7 +38,7 @@ export default function About() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
         >
-          I make web and mobile applications.
+          I turn ambiguous workflows into shipped software.
         </motion.h2>
 
         <div ref={textRef}>
@@ -48,11 +48,11 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="text-base sm:text-xl text-gray-50 font-[400] leading-relaxed sm:pr-48"
           >
-            I&apos;m a developer that creates web and mobile applications. I
-            have a strong foundation in full-stack development and cloud
-            technologies. From my experience at big tech and side projects,
-            I&apos;ve developed a good eye for building user-focused products
-            that solve real problems.
+            I&apos;m a full-stack product engineer focused on AI tools, data
+            platforms, and production mobile experiences. I&apos;m strongest in
+            ambiguous environments where the work requires understanding messy
+            workflows, designing practical systems, and shipping software that
+            turns complex data into usable decisions.
           </motion.p>
         </div>
       </motion.div>
