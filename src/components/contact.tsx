@@ -28,7 +28,7 @@ export default function ContactCard() {
               transition={{ delay: 0.275 }}
               className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-4 text-gray-900"
             >
-              Let&apos;s build useful systems.
+              Let&apos;s work together.
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, x: -50 }}

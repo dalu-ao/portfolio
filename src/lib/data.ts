@@ -70,27 +70,31 @@ export const experienceData = [
 
 export const projectsData = [
   {
-    subtitle: "AI Security • FastAPI • React • WebSockets",
-    title: "Xploit",
-    description:
-      "AI security platform that turns red-teaming into a live capture-the-flag-style simulation, running automated Attacker Agents against task-specific Victim Agents to test whether systems can be jailbroken into prohibited actions.",
-    gradient: "from-slate-700 via-blue-500 to-cyan-400",
+    subtitle: "ML • Python • Flutter",
+    title: "Meddibia",
+    description: "AI medical companion.",
+    gradient: "from-red-400 via-purple-400 to-blue-400",
+    link: "https://devpost.com/software/meddibia",
   },
   {
     subtitle: "AI • Supabase • Flutter",
     title: "Reech",
-    description:
-      "Production mobile fitness app with authentication, offline-first workout logging, PostgreSQL-backed data modeling, sync logic, and cloud persistence.",
+    description: "Smart tracking. Smart progress.",
     gradient: "from-green-400 via-emerald-400 to-cyan-400",
-    link: "https://tryreech.com",
+    link: "https://apps.apple.com/us/app/reech-workout-tracker/id6744148500",
   },
   {
-    subtitle: "ML • Python • Flutter",
-    title: "Meddibia",
-    description:
-      "AI medical companion built with Flutter and machine learning tooling to help users reason through health-related questions and care navigation.",
-    gradient: "from-red-400 via-purple-400 to-blue-400",
-    link: "https://devpost.com/software/meddibia",
+    subtitle: "Python • OpenCV • MediaPipe",
+    title: "Gesture Control",
+    description: "Your hands. Your commands.",
+    gradient: "from-purple-400 via-pink-400 to-red-400",
+    link: "https://devpost.com/software/gesture-ai",
+  },
+  {
+    subtitle: "AI Security • FastAPI • React • WebSockets",
+    title: "Xploit",
+    description: "Attack agents. Safer systems.",
+    gradient: "from-slate-700 via-blue-500 to-cyan-400",
   },
 ] as const;
 
