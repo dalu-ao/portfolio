@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Dalu | Personal Portfolio",
-  description: "Dalu Okonkwo is a Software Developer Engineer",
+  description: "Dalu Okonkwo is an Applied AI Product Engineer",
 };
 
 export default function RootLayout({

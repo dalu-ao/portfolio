@@ -8,9 +8,9 @@ import { projectsData } from "@/lib/data";
 
 // Add this gradient array at the top of the file, outside of any component
 const gradients = [
-  "from-red-400 via-purple-400 to-blue-400",
+  "from-slate-700 via-blue-500 to-cyan-400",
   "from-green-400 via-emerald-400 to-cyan-400",
-  "from-purple-400 via-pink-400 to-red-400",
+  "from-red-400 via-purple-400 to-blue-400",
 ];
 
 interface Project {
@@ -70,9 +70,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
               </button>
             ) : (
               <div className="flex items-center justify-center">
-                <p className="text-white text-xs sm:text-sm">
-                  Coming this fall
-                </p>
+                <p className="text-white text-xs sm:text-sm">Coming soon</p>
               </div>
             )}
           </div>
@@ -104,6 +102,14 @@ export default function Projects() {
           transition={{ delay: 0.2 }}
         >
           Projects
+        </motion.p>
+        <motion.p
+          className="text-gray-50 text-lg sm:text-xl font-semibold leading-[1.3] mb-8 px-4"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.25 }}
+        >
+          Selected products and tools I&apos;ve built.
         </motion.p>
 
         <div className="relative">
