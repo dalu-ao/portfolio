@@ -38,7 +38,7 @@ export default function About() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
         >
-          I turn ambiguous workflows into shipped software.
+          I turn messy problems into useful software.
         </motion.h2>
 
         <div ref={textRef}>
@@ -48,11 +48,10 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="text-base sm:text-xl text-gray-50 font-[400] leading-relaxed sm:pr-48"
           >
-            I&apos;m a full-stack product engineer focused on AI tools, data
-            platforms, and production mobile experiences. I&apos;m strongest in
-            ambiguous environments where the work requires understanding messy
-            workflows, designing practical systems, and shipping software that
-            turns complex data into usable decisions.
+            I&apos;m a software engineer who turns unclear problems into useful
+            products. I&apos;ve built internal tools at AWS, fintech workflows at
+            PowerPay, and Reech, a mobile fitness app. I like owning the path
+            from an early idea to software people can rely on.
           </motion.p>
         </div>
       </motion.div>

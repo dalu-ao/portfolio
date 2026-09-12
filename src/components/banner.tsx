@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Banner() {
   const name = "Dalu Okonkwo".split(" ");
-  const title = "Applied AI Product Engineer".split(" ");
+  const title = "Software engineer building AI tools and products.".split(" ");
 
   const textAnimationDuration = 0.5;
   const totalTextDelay = (name.length + title.length) / 5;
@@ -61,7 +61,7 @@ export default function Banner() {
             </button>
             <button className="bg-transparent hover:bg-blue-500 text-blue-500 hover:text-white font-normal py-2 px-4 rounded-full border border-blue-500 transition duration-300">
               <a
-                href="/dalu_okonkwo_resume.pdf"
+                href="/portfolio/dalu_okonkwo_resume.pdf"
                 download="Dalu Okonkwo's Resume"
               >
                 Download Resume
