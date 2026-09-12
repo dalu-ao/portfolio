@@ -8,8 +8,9 @@ import ActiveSectionContextProvider from "@/context/active-section-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dalu | Personal Portfolio",
-  description: "Dalu Okonkwo is an Applied AI Product Engineer",
+  title: "Dalu Okonkwo — Software Engineer",
+  description:
+    "Software engineer building AI tools, mobile products, and reliable data systems.",
 };
 
 export default function RootLayout({

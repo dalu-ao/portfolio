@@ -103,36 +103,36 @@ export const skillsData = [
     icon: "💻",
     title: "Product Interfaces ",
     description:
-      "I build user-facing web and mobile experiences with React, Next.js, Flutter, Node.js, and API-driven workflows.",
+      "Web and mobile products built with React, Next.js, Flutter, and SwiftUI.",
   },
   {
     icon: "🤖",
     title: "AI & Data Systems ",
     description:
-      "I work with LLMs, agentic workflows, prompting, data querying, visualization, Pydantic-AI, OpenCV, MediaPipe, and Hugging Face.",
+      "I build AI applications and agent workflows, from tool integration and prompting to evaluation and reliability.",
   },
   {
     icon: "☁️",
     title: "Backend & Cloud ",
     description:
-      "I build backend systems with AWS, Supabase, Firebase, PostgreSQL, SQLite, Docker, REST APIs, GraphQL, and serverless infrastructure.",
+      "APIs, data models, and cloud infrastructure built with AWS, Supabase, PostgreSQL, SQLite, and Docker.",
   },
   {
     icon: "</>",
     title: "Core Engineering ",
     description:
-      "I write across TypeScript, JavaScript, Python, Java, Dart, SQL, and C, with testing and version control through Jest, Cypress, JUnit, Postman, and Git.",
+      "TypeScript, Python, Dart, JavaScript, Java, and C, supported by testing with Jest, Cypress, and JUnit.",
   },
   {
     icon: "🧪",
     title: "Product Execution ",
     description:
-      "I build from user feedback and requirements by scoping features, organizing delivery workflows, and shipping product improvements.",
+      "Turning user needs into scoped features, working software, and steady iteration.",
   },
   {
     icon: "⚽️",
     title: "Interests ",
     description:
-      "including AI safety, local LLMs, indie hacking, music production, and soccer.",
+      "AI safety, local models, indie products, music production, and soccer.",
   },
 ] as const;

@@ -36,9 +36,8 @@ export default function ContactCard() {
               transition={{ delay: 0.325 }}
               className="text-gray-700 text-base sm:text-lg mb-6"
             >
-              If you&apos;re building something useful and need someone who can
-              think through the product and build the system behind it, reach
-              out.
+              Have a product idea, an unclear technical problem, or a system
+              that needs simplifying? Let&apos;s talk.
             </motion.p>
 
             <motion.button

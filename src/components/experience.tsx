@@ -87,8 +87,8 @@ export default function Experience() {
             Experience
           </h2>
           <p className="text-gray-50 text-lg max-w-[720px] mx-auto text-center font-semibold leading-[1.3] mb-12">
-            Recent work building AI tools, financial systems, and internal
-            platforms.
+            Products and internal tools I&apos;ve shipped across AI, fintech, and
+            analytics.
           </p>
 
           {experienceData.map((experience, index) => (

@@ -59,7 +59,7 @@ export default function Skills() {
             Skills
           </h2>
           <p className="text-gray-50 text-lg max-w-[800px] mx-auto word sm:tracking-normal tracking-tight font-semibold leading-[1.3]">
-            The stack I use to build, ship, and reason through products.
+            The tools and disciplines behind the products I ship.
           </p>
         </div>
 
